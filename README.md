@@ -4,6 +4,10 @@
 
 https://www.w3schools.com/xml/xquery_intro.asp
 
+- Es un estándar del World Wide Web Consortium (W3C), lo que significa que es una tecnología respaldada por una organización reconocida en la industria. Aunque puede no ser tan utilizado como algunos otros lenguajes, sigue siendo una parte importante del panorama de estándares web.
+
+- Ayuda a los estudiantes a comprender conceptos fundamentales de la programación, como la manipulación de datos, la lógica de consulta y la estructuración de información.
+
 ## Base de Datos Nativa XML
 ![image](https://github.com/profeMelola/LM-06-2023-24/assets/91023374/43499f3e-78b7-4998-b2ea-11a6acee5eee)
 
