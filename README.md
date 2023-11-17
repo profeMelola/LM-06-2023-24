@@ -1,8 +1,13 @@
 # XQuery
 
+![image](https://github.com/profeMelola/LM-06-2023-24/assets/91023374/db239a5b-a0cc-45f4-a1b7-a08c47992c0d)
 
+https://www.w3schools.com/xml/xquery_intro.asp
+
+## Base de Datos Nativa XML
 ![image](https://github.com/profeMelola/LM-06-2023-24/assets/91023374/43499f3e-78b7-4998-b2ea-11a6acee5eee)
 
+BaseX es una base de datos nosql, considerada una base de datos documental, no responde al modelo relacional, sirve para trabajar con ficheros XML.
 
 ## Ranking DB
 
