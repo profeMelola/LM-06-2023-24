@@ -19,4 +19,4 @@ Dado el documento bailes.xml realiza las siguientes consultas con XQuery:
 15. Mostrar todos los datos de cada baile excepto la fecha de comienzo y de fin.
 16. Mostrar en una tabla de HTML los nombres de los bailes y su profesor, cada uno en una fila.
 
-![image](https://github.com/profeMelola/LM-06-2023-24/assets/91023374/ef6308fd-7741-420c-8fb8-76817fcccc33 { width=50% })
+![image](https://github.com/profeMelola/LM-06-2023-24/assets/91023374/ef6308fd-7741-420c-8fb8-76817fcccc33)
