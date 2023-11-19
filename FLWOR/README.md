@@ -24,7 +24,7 @@ for $cd in doc("../cd_catalog.xml")/CATALOG/CD
          <precio>{$precio}</precio>
       </disco_compacto>
 ```
-Existen algunas alternativas para la ejecución del bucle for. Lo primero que debemos entender es que XQuery difiere del lenguaje Java en su paradigma, Java es un lenguaje imperativo, mientras que XQuery es un lenguaje funcional, esto provoca que cada iteraciń de un buble en XQuery no es una ejecución de instrucciones una tras otra, estas iteraciones se hacen en paralelo y no existe una posible comunicación entre las distintas iteraciones.
+Existen algunas alternativas para la ejecución del bucle for. Lo primero que debemos entender es que XQuery difiere del lenguaje Java en su paradigma, Java es un lenguaje imperativo, mientras que XQuery es un lenguaje funcional, esto provoca que cada iteración de un buble en XQuery no es una ejecución de instrucciones una tras otra, estas iteraciones se hacen en paralelo y no existe una posible comunicación entre las distintas iteraciones.
 
 En el siguiente ejemplo podemos definir un rango de ejecución, podría ser útil si queremos obtener los tres primeros CDs, o algún caso similar.
 ```
