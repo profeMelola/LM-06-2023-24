@@ -10,12 +10,15 @@ return <losbailes>{$baile/nombre/text()} ({$baile/plazas/text()})</losbailes>:)
 (:for $baile in //baile
 where $baile/precio > 30 and $baile/precio/@moneda = "euro"
 return $baile/nombre:)
+(: 4.- Mostrar los nombres de los bailes cuyo precio sea mayor de 30 y la moneda "euro".:)
 
+(:for $baile in //baile
+where $baile/precio > 30 and $baile/precio/@moneda = 'euro'
+return $baile/nombre/text():)
 (:for $baile in //baile[precio > 30 and precio/@moneda = "euro"]
 return $baile/nombre:)
 
-(:4.Mostrar los nombres y la fecha de comienzo de los bailes que comiencen el mes de enero (utiliza para buscarlo la
-cadena de texto "/1/") :)
+(: 5.- Mostrar los nombres y la fecha de comienzo de los bailes que comiencen el mes de enero (utiliza para buscarlo la cadena de texto "/1/").:)
 (:for $baile in //baile
 where contains($baile/comienzo,"/1/"):)
 (:return string-join(($baile/nombre/text(),$baile/comienzo/text()),"-"):)
@@ -101,6 +104,14 @@ return
   <precio>{$precio}</precio>
   <precioConDto>{$precioFinal}</precioConDto>
 </baile>:)
+(:for $baile in //baile
+order by $baile/nombre
+return
+<info>
+  {$baile/nombre}
+  {$baile/precio}
+  <precioDescuento>{$baile/precio * 0.85}</precioDescuento>
+</info>:)
 
 (:15.Mostrar todos los datos de cada baile excepto la fecha de comienzo y de fin:)
 (:for $baile in /bailes/baile
