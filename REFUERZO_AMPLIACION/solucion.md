@@ -21,8 +21,7 @@ for $libro in /bookstore/book[price<=30]
 return <title>{$libro/title/text()}</title>
 
 (:5 :)
-for $libro in /bookstore/book
-where $libro/year=2005
+for $libro in /bookstore/book[year=2005]
 return <lib2005>{$libro/title,$libro/author}</lib2005>
 
 for $libro in /bookstore/book
